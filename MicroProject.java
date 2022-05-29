@@ -2,13 +2,12 @@ import java.util.Scanner;
 
 public class MicroProject extends Accept {
 
-  public static void main(String[] args)
-  {
+  public static void main(String[] args) {
     Scanner sc = new Scanner(System.in);
 
     System.out.println("How many product do you want to enter:=");
     int count = sc.nextInt();
- 
+
     float payableAmount = 0;
     String name;
     long p_no;
@@ -34,8 +33,9 @@ public class MicroProject extends Accept {
     );
     a[0].line();
 
-    System.out.println("Customer Name:=\t" + name + "\nCustomer phone number  :=\t" + p_no  );
-    // System.out.println("Customer phone number :=\t" + p_no);
+    System.out.println(
+      "Customer Name:=\t" + name + "\nCustomer phone number  :=\t" + p_no
+    );
     a[0].line();
 
     for (int i = 0; i < a.length; i++) {
@@ -48,8 +48,4 @@ public class MicroProject extends Accept {
     }
     System.out.println("Payable amount :=\t" + payableAmount);
   }
-  // private static void extracted() {
-  //     // Accept a1[] = new Accept()[10];
-  // }
-
 }

@@ -1,1 +1,0 @@
-     name = sc.nextLine();
